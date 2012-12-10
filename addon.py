@@ -21,7 +21,7 @@ from xbmcswift2 import Plugin, xbmc
 from resources.lib.api import \
     ItunesPodcastApi, NetworkError, NoEnclosureException
 
-plugin = Plugin()
+plugin = Plugin(addon_id='plugin.video.itunes_podcasts')
 api = ItunesPodcastApi()
 my_podcasts = plugin.get_storage('my_podcasts.json', file_format='json')
 
