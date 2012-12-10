@@ -78,7 +78,7 @@ class NoEnclosureException(Exception):
     pass
 
 
-class ItunesPodcastApi():
+class ItunesPodcastApi:
 
     USER_AGENT = 'XBMC ItunesPodcastApi'
 
